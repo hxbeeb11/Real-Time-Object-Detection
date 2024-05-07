@@ -1,6 +1,8 @@
 # Real Time Object Detection
 This repository contains a Python implementation of real-time object detection using the SSD MobileNet model integrated with OpenCV. The code allows for object detection using either a webcam or a custom video file. This project is ideal for educational purposes, hobbyist applications, or as a starting point for more complex object detection systems.
 
+This project harnesses the power of SSD MobileNet, a streamlined architecture for object detection, integrated with OpenCV to enable real-time identification and localization of objects within videos. Users can deploy this tool using either their webcam or any custom video file by merely adjusting the video source path. It's designed to recognize multiple object classes and display their labels and confidence scores directly on the detected objects in the video stream. This implementation not only illustrates the detection capabilities via bounding boxes but also enhances these boxes with corner lines for better visualization. The code calculates and displays the frames per second (FPS) to give insights into the performance speed. Suitable for educational purposes, hobbyists, or as a prototype for more complex computer vision projects, this system is a practical demonstration of integrating deep learning models with real-world applications.
+
 # Project Structure
  - model_data/: Folder containing the SSD MobileNet model files and class names.
  - ssd_mobilenet_v3_large_coco_2020_01_14.pbtxt: Configuration file for the model.
